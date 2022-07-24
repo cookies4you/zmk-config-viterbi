@@ -3,6 +3,8 @@
  *
  * SPDX-License-Identifier: MIT
  */
+ 
+ #include <dt-bindings/zmk/rgb.h>
 
 &spi1 {
   compatible = "nordic,nrf-spim";
