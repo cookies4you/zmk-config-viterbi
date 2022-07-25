@@ -55,12 +55,12 @@
     };
 };
 
-// / {
-//    conditional_layers {
-//        compatible = "zmk,conditional-layers";
-//        tri_layer {
-//            if-layers = <LWR RSE>;
-//            then-layer = <ADJ>;
-//        };
-//    };
-// }; 
+/ {
+   conditional_layers {
+       compatible = "zmk,conditional-layers";
+       tri_layer {
+           if-layers = <LWR RSE>;
+           then-layer = <ADJ>;
+       };
+   };
+}; 
